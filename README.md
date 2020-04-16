@@ -1,5 +1,6 @@
 # e7homework
 sudo docker-compose build
+
 sudo docker-compose up
 
 

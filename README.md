@@ -1,4 +1,7 @@
 # e7homework
+sudo docker-compose build
+sudo docker-compose up
+
 
 Добавить сообщение:
 curl -d "text=3rd message" -X POST http://89.208.211.24:8080/addmessag

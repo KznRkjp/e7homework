@@ -28,6 +28,10 @@ def addmessage():
 #curl -d "text=fdgdfgdfgdhfghgfhfgh" -X POST http://127.0.0.1:5000/addmessage
 
 #Добавление тегов
+@app.route('/')
+def stats():
+    return(REDIS_HOST, MONGO_HOST)
+
 @app.route('/addtag', methods=['POST'])
 @cache.cached()
 def addtag():
